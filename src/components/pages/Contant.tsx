@@ -9,7 +9,6 @@ type HeadingType = {
 const Content: React.FC<HeadingType> = ({heading, about}) => {
 
     const navigate = useNavigate();
-    // console.log('navigate', navigate('/page/0'))
 
     const mainPageHandler = () => {
         navigate('/page/0')
