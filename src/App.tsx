@@ -176,6 +176,7 @@ function App() {
         setTodo(todo.filter(el => el.todolistId !== todolistId))
     }
 
+
     return (
         <div className="App">
             {
